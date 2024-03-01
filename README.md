@@ -8,10 +8,18 @@ Okada, Y. (1992), Internal deformation due to shear and tensile faults in a half
 
 ## Install okada4py:
 
-### Compilation
+### Compilation on linux
 ```
 export CC=gcc
 python setup.py build
+```
+### Compilation on Windows10/11
+
+cd to okadapy-master dirctory and create setup.cfg
+complete cfg:
+```
+[build]
+compiler = mingw32
 ```
 
 ### Linking
