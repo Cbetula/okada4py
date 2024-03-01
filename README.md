@@ -22,6 +22,10 @@ complete cfg:
 [build]
 compiler = mingw32
 ```
+then
+···
+python setup.py build
+···
 
 ### Linking
 
