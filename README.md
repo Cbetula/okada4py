@@ -16,6 +16,7 @@ python setup.py build
 ### Compilation on Windows10/11
 
 cd to okadapy-master dirctory and create setup.cfg
+
 complete cfg:
 ```
 [build]
